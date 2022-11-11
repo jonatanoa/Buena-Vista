@@ -1,0 +1,308 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+/* Header */
+.logo-bx{
+    top: 0;
+    left: 0;
+    margin: 4rem;
+    position: absolute;
+    min-width: 195vh;
+}
+.logo{
+    width: 10rem;
+}
+.slider{
+    cursor: pointer;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    overflow: hidden;
+    max-height: 40rem !important; /*13*/
+}
+.splide__track{
+    position: relative;
+}
+.splide__list{
+    filter: brightness(0.5);
+
+}
+.title-bx{
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main-title{
+    display: flex;
+    text-align: center;
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courgette', cursive;
+    color: rgb(255, 215, 0);
+    text-shadow: 4px 3px 2px rgba(0,0,0,0.6);
+}
+.main-text{
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    color: #1c8ccd;
+    text-shadow: 4px 4px 5px rgb(0 0 0 / 62%);
+    text-align: center;
+    line-height: 40px;
+}
+
+.img{
+    width: 100%;
+}
+
+
+.splide__pagination--ltr{
+    display: none !important;
+}
+
+/* decription */
+
+.container-fluid{
+    background-color: rgb(211 245 245);
+    max-height: none;
+}
+.card-1{
+    height: 17rem;
+    margin-top: -4rem !important;
+}
+.card-1-box{
+    position: absolute;
+    backdrop-filter: blur(5.1px);
+    box-shadow: 6px 11px 17px -1px rgba(0,0,0,0.6);
+    border-top: 1px solid hsla(0,0%,100%,.3);
+}
+
+.card-2{
+    padding-top: 2rem;
+    position: relative;
+    z-index: 1;
+}
+.card-2-bx{
+    box-shadow: 6px 11px 17px -1px rgba(0,0,0,0.6);
+    position: relative;
+    overflow: hidden;
+}
+.card-2 .card-2-bx:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    transform: skewX(45deg) translateX(700px);
+    transition: 1s;
+    opacity: .7;
+}
+
+.card-2 .card-2-bx:hover:before {
+    transform: skewX(45deg) translateX(-500px);
+}
+.card-11{
+    background-image: url(../img/Fondos-de-pantalla-naturaleza-recreoviral-4.webp);
+}
+.card-22{
+    background-image: url(../img/yousef-espanioly-hbQeCpo-Cp0-unsplash.jpg);
+    background-size: 22rem;
+}
+.card-33{
+    background-image: url(../img/sofiya-levchenko-ilBdgYgcamE-unsplash.jpg);
+    background-size: 44rem;
+}
+.icon{
+    font-size: 2rem;
+    color: #F1C859;
+}
+.icon-2{
+    color: #e4ff00 !important;
+}
+.filtro{
+    backdrop-filter: blur(5.1px);
+    box-shadow: 6px 11px 17px -1px rgba(0,0,0,0.6);
+    padding: 1rem;
+    color: #dbdbdb;
+}
+.title-2{
+    color: #ffc284;
+    text-shadow: 4px 4px 5px rgb(0 0 0 / 70%);
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px !important;
+}
+.sub-title{
+ color: #000 !important;
+}
+
+/* media */
+@media (max-width:1050px){
+    .slider {
+        max-height: 36rem !important;
+    }
+}
+@media (max-width:768px){
+    .slider {
+        max-height: 27rem !important;
+    }
+    .title-bx{
+        min-width: 86vh;
+        min-height: 77vh;
+        gap: 0rem;
+    }
+    .main-title{
+        font-size: 4rem;
+    }
+    .main-text{
+        line-height: 35px;
+        font-size: 3rem;
+    }
+    .logo-bx{
+     margin: 1rem;   
+    }
+    .logo{
+        width: 6rem;
+    }
+}
+@media (max-width:425px){
+    .img-responsive {
+        width: 118%;
+    }
+    .title-bx{
+        min-width: 86vh;
+        min-height: 52vh;
+        gap: 0rem;
+    }
+    .main-title{
+        font-size: 37px;
+    }
+    .main-text{
+        line-height: 24px;
+        font-size: 30px;
+    }
+    .logo-bx{
+     margin: 1rem;   
+    }
+    .logo{
+        width: 4rem;
+    }
+    .p-4 {
+        padding: 0;   }
+    .card-1-box{
+        width: 100% !important;
+        background: url(https://i.pinimg.com/564x/fb/40/9a/fb409a1186623f40ac13a332d389651a.jpg);
+        background-size: 20rem;
+    }
+    .text-card-1{
+
+        backdrop-filter: blur(5.1px);
+        color:#fff;
+        padding: 1rem;
+    }
+    .sub-title{
+        color:#ffc284 !important;
+    }
+    .card-1 {
+        position: static !important;
+        margin-top:0 !important;
+        margin-bottom: -9rem !important;
+        margin-left: 0 !important;
+        padding-top: 2rem !important;
+    }
+    .card-2{
+        position: static;
+        padding-top: 17rem;
+    }
+}
+@media (max-width:375px){
+    .img-responsive {
+        width: 118%;
+    }
+    .title-bx{
+        min-width: 75vh;
+        min-height: 44vh;
+        gap: 0rem;
+    }
+    .main-title{
+        font-size: 26px;
+    }
+    .main-text{
+        line-height: 24px;
+        font-size: 24px;
+    }
+    .logo-bx{
+     margin: 1rem;   
+    }
+    .logo{
+        width: 3rem;
+    }
+    .card-1{
+        padding-top: 2rem !important;
+        padding: 1rem;
+    }
+    .card-1-box{
+        width: 100% !important;
+        background: url(https://i.pinimg.com/564x/fb/40/9a/fb409a1186623f40ac13a332d389651a.jpg);
+        background-size: 20rem;
+    }
+    .text-card-1{
+
+        backdrop-filter: blur(5.1px);
+        color:#fff;
+        padding: 1rem;
+    }
+    .sub-title{
+        color:#ffc284 !important;
+    }
+}
+@media (max-width:320px){
+    .img-responsive {
+        width: 118%;
+    }
+    .title-bx{
+        min-width: 64vh;
+        min-height: 44vh;
+        gap: 0rem;
+    }
+    .main-title{
+        font-size: 26px;
+    }
+    .main-text{
+        line-height: 24px;
+        font-size: 24px;
+    }
+    .logo-bx{
+     margin: 1rem;   
+    }
+    .logo{
+        width: 3rem;
+    }
+    .card-1{
+        padding-top: 2rem !important;
+        margin-bottom: -7rem !important;
+    }
+    .card-1-box{
+        width: 100% !important;
+        background: url(https://i.pinimg.com/564x/fb/40/9a/fb409a1186623f40ac13a332d389651a.jpg);
+        background-size: 20rem;
+    }
+    .text-card-1{
+        backdrop-filter: blur(5.1px);
+        color:#fff;
+        padding: 1rem;
+    }
+    .sub-title{
+        color:#ffc284 !important;
+    }
+}

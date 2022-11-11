@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="./img/Logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="splide-4.1.3/dist/js/splide.min.js"></script>
+    <title>Buena Vista</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="slider container-fluid splide" aria-label="Basic Structure Example">
+        <div class="splide__track">
+            <div class="row title-bx">
+                <div class="logo-bx">
+                    <img class="logo" src="./img/logo2.png" alt="">
+                </div>
+                <h1 class="col-12 main-title">Fonda Buena Vista</h1>
+                <p class="main-text">"<sup> Un lugar </sup>que te hará vivir <br> momentos <sub>unicos</sub> " </p>
+            </div>
+            <ul class="splide__list">
+              <li class="splide__slide"><img class="img-responsive img" src="./img/1.jpg" alt=""></li>
+              <li class="splide__slide"><img class="img-responsive img" src="./img/2.jpg" alt=""></li>
+              <li class="splide__slide"><img class="img img-3" src="./img/3.jpg" alt=""></li>
+            </ul>
+          </div>
+    </header>
+  
+    <!-- Descripcion -->
+    <section class="container-fluid">
+        <div class="card-1 row me-0 d-flex justify-content-center">
+            <div class="card-1-box rounded col-10 col-lg-6 p-4 border-3 ">
+                <div class="icon icon-2 mt-3 d-flex justify-content-center">
+                    <ion-icon name="people-outline"></ion-icon>
+                </div>
+                <h3 class="sub-title h3 mt-3 title-2 d-flex justify-content-center text-center">¿Quines Somos?</h3>
+                <p class="text-card-1 text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, pariatur ullam. Voluptas vero iure nihil magni nisi dolore dicta eaque soluta, at ab perspiciatis mollitia? Adipisci possimus accusamus cum voluptatum.</p>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center card-2">
+
+            <div class="m-3 p-5 rounded card-2-bx card-11 col-12 col-sm-8 col-md-5 col-xl-3">
+                <div class="icon mt-3 d-flex justify-content-center">
+                    <ion-icon name="checkmark-done-outline"></ion-icon>
+                </div>
+                <h3 class="mt-3 title-2 h3 d-flex justify-content-center text-center">Misión</h3>
+                <div class="filtro">
+                    <p class="mt-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, pariatur ullam. Voluptas vero iure nihil magni nisi dolore dicta eaque soluta, at ab perspiciatis mollitia? Adipisci possimus accusamus cum voluptatum.</p>
+                </div>
+            </div>
+            <div class="m-3 p-5 rounded card-2-bx card-22 col-12 col-sm-8 col-md-5 col-xl-3">
+                <div class="icon mt-3 d-flex justify-content-center">
+                    <ion-icon name="calendar-outline"></ion-icon>
+                </div>
+                <h3 class="mt-3 title-2 h3 d-flex justify-content-center text-center">Visión</h3>
+                <div class="filtro">
+                    <p class="mt-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, pariatur ullam. Voluptas vero iure nihil magni nisi dolore dicta eaque soluta, at ab perspiciatis mollitia? Adipisci possimus accusamus cum voluptatum.</p>
+                </div>
+            </div>
+            <div class="m-3 p-5 rounded card-2-bx card-33 col-12 col-sm-8 col-md-5 col-xl-3">
+                <div class="icon mt-3 d-flex justify-content-center">
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h3 class="mt-3 title-2 h3 d-flex justify-content-center text-center">Valores</h3>
+                <div class="filtro">
+                    <p class="mt-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, pariatur ullam. Voluptas vero iure nihil magni nisi dolore dicta eaque soluta, at ab perspiciatis mollitia? Adipisci possimus accusamus cum voluptatum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- servicios -->
+    <section class="container"></section>
+    <!-- Comentarios -->
+    <section></section>
+    <!-- Ubicacion -->
+    <section></section>
+    <!-- footer -->
+    <section></section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        let splide = new Splide( '.splide',{
+          type: 'slide',
+          autoplay:true,
+          rewind:true,
+          speed:'1000',
+
+
+        } );
+            splide.mount();
+      </script>
+</body>
+</html>
