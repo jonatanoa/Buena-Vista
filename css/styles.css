@@ -217,6 +217,7 @@
     .text-card-1{
 
         backdrop-filter: blur(5.1px);
+        box-shadow: 6px 11px 17px -1px rgba(0,0,0,0.6);
         color:#fff;
         padding: 1rem;
     }
@@ -249,6 +250,7 @@
     .text-card-1{
 
         backdrop-filter: blur(5.1px);
+        box-shadow: 6px 11px 17px -1px rgba(0,0,0,0.6);
         color:#fff;
         padding: 1rem;
     }
@@ -269,6 +271,7 @@
     }
     .text-card-1{
         backdrop-filter: blur(5.1px);
+        box-shadow: 6px 11px 17px -1px rgba(0,0,0,0.6);
         color:#fff;
         padding: 1rem;
     }
